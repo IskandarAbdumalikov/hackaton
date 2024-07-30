@@ -1,0 +1,33 @@
+.users{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    text-align: center;
+    color: white;
+    h1{
+        font-size: 70px;
+    }
+    .users__cards{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 50px;
+        .user__card{
+            display: flex;
+            flex-direction: column;
+            height: 600px;
+            img{
+                width: 100%;
+                height: 50%;
+                object-fit: cover;
+            }
+            &__info{
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+                h2{
+                    color: crimson;
+                }
+            }
+        }
+    }
+}

@@ -42,6 +42,25 @@
         border: none;
         border-radius: 5px;
         outline: none;
+        height: 50px;
+      }
+      .password__input {
+        display: flex;
+        align-items: center;
+        background: white;
+        border-radius: 5px;
+        width: 100%;
+        gap: 10px;
+        height: 50px;
+        input {
+          border: none;
+          background: transparent;
+        }
+        button {
+          font-size: 22px;
+          color: black;
+          width: 10%;
+        }
       }
       .remember__input {
         display: flex;
@@ -71,7 +90,7 @@
         font-size: 20px;
         color: white;
       }
-      a{
+      a {
         text-align: center;
         margin: 0 auto;
       }
